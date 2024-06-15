@@ -1,0 +1,6 @@
+[submodule "model/mytorch"]
+	path = model/mytorch
+	url = git@github.com:HipGraph/torch.git
+[submodule "model/mytorch_geometric"]
+	path = model/mytorch_geometric
+	url = git@github.com:HipGraph/torch_geometric.git
