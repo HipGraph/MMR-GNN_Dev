@@ -4,3 +4,48 @@
 [submodule "model/mytorch_geometric"]
 	path = model/mytorch_geometric
 	url = git@github.com:HipGraph/torch_geometric.git
+[submodule "model/MMRGNN_PyTorch"]
+	path = model/MMRGNN_PyTorch
+	url = git@github.com:HipGraph/MMR-GNN.git
+[submodule "model/AGCRN_PyTorch"]
+	path = model/AGCRN_PyTorch
+	url = git@github.com:LeiBAI/AGCRN.git
+[submodule "model/DCRNN_PyTorch"]
+	path = model/DCRNN_PyTorch
+	url = git@github.com:chnsh/DCRNN_PyTorch.git
+[submodule "model/SCINet_PyTorch"]
+	path = model/SCINet_PyTorch
+	url = git@github.com:cure-lab/SCINet.git
+[submodule "model/ASTGCN_PyTorch"]
+	path = model/ASTGCN_PyTorch
+	url = git@github.com:guoshnBJTU/ASTGCN-r-pytorch.git
+[submodule "model/STGCN_PyTorch"]
+	path = model/STGCN_PyTorch
+	url = git@github.com:hazdzz/STGCN.git
+[submodule "model/TCN_PyTorch"]
+	path = model/TCN_PyTorch
+	url = git@github.com:locuslab/TCN.git
+[submodule "model/TGCN_PyTorch"]
+	path = model/TGCN_PyTorch
+	url = git@github.com:martinwhl/T-GCN-PyTorch.git
+[submodule "model/StemGNN_PyTorch"]
+	path = model/StemGNN_PyTorch
+	url = git@github.com:microsoft/StemGNN.git
+[submodule "model/MTGNN_PyTorch"]
+	path = model/MTGNN_PyTorch
+	url = git@github.com:nnzhan/MTGNN.git
+[submodule "model/GeoMAN_PyTorch"]
+	path = model/GeoMAN_PyTorch
+	url = git@github.com:yoshall/GeoMAN-Pytorch.git
+[submodule "model/FEDformer_PyTorch"]
+	path = model/FEDformer_PyTorch
+	url = https://github.com/MAZiqing/FEDformer.git
+[submodule "model/LTSF_PyTorch"]
+	path = model/LTSF_PyTorch
+	url = https://github.com/cure-lab/LTSF-Linear.git
+[submodule "model/STGM_PyTorch"]
+	path = model/STGM_PyTorch
+	url = https://github.com/Mouradost/STGM.git
+[submodule "data/caltrans_pems"]
+	path = data/caltrans_pems
+	url = https://github.com/Seb-Good/caltrans-pems.git
