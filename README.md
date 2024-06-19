@@ -16,7 +16,7 @@ The pipeline uses Anaconda and pip to manage dependencies. Issue the following t
 ```bash
 conda create -n MMRGNN python=3.9
 ```
-The environment may be installed using setup.py. Run the following to install all python packages and integrate submodules (correct imports, etc.):
+Pipeline dependencies are handled via setup.py. Run the following to install all python packages and integrate submodules (correct imports, etc.):
 ```bash
 conda activate MMRGNN
 python setup.py install_dependencies
@@ -53,12 +53,13 @@ python driver.py --A \"pakdd2024\" --a 2.1  # Electricity
 You will find the resulting tables under analysis/PAKDD2024/[analysis name]/. For example, results from Little River will be under analysis/PAKDD2024/LittleRiver/.
 
 ### Ablation Experiments
-Many ablation studies exist for MMR-GNN. An exhaustive list includes:
+Many ablation studies exist for MMR-GNN. The following experiments cover all published ablation studies:
 ```bash
 python driver.py --E \"pakdd2024\" --e 0.2  # stGRU vs. vanilla GRU
 python driver.py --E \"pakdd2024\" --e 0.31  # Implicit modality count
 python driver.py --E \"pakdd2024\" --e 0.4  # Graph augmentation rate
 python driver.py --E \"pakdd2024\" --e 0.5  # Increasing embeding dimension
+python driver.py --E \"pakdd2024\" --e 0.102  # Long-term Wabash River forecasting
 python driver.py --E \"pakdd2024\" --e 0.107  # Long-term Solar-Energy forecasting
 python driver.py --E \"pakdd2024\" --e 0.7  # Alternative RNN cells
 python driver.py --E \"pakdd2024\" --e 0.8  # Alternative fusion methods
