@@ -14,11 +14,11 @@ git clone git@github.com:HipGraph/MMR-GNN_Dev.git --recurse-submodules
 ## Environment
 The pipeline uses Anaconda and pip to manage dependencies. Issue the following to create the environment:
 ```bash
-conda create -n MMRGNN python=3.9
+conda create -n MMR-GNN_Dev python=3.9
 ```
 Pipeline dependencies are handled via setup.py. Run the following to install all python packages and integrate submodules (correct imports, etc.):
 ```bash
-conda activate MMRGNN
+conda activate MMR-GNN_Dev
 python setup.py install_dependencies
 python setup.py integrate_submodules
 ```
